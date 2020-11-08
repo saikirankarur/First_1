@@ -32,6 +32,7 @@ public class FirstServlet extends HttpServlet {
 		try {
 			PrintWriter pw=response.getWriter();
 			pw.println("Hello World");
+			pw.println("HI");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
